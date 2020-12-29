@@ -985,9 +985,11 @@ a {
 }
 
 .paragraph-18 {
+  padding-right: 60px;
+  padding-left: 60px;
   font-family: Montserrat, sans-serif;
   color: #0b1819;
-  text-align: center;
+  text-align: left;
 }
 
 .column-8 {
@@ -1752,6 +1754,12 @@ a {
     font-size: 25px;
   }
 
+  .paragraph-18 {
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: left;
+  }
+
   .paragraph-19 {
     font-size: 16px;
   }
@@ -2035,8 +2043,14 @@ a {
     border-radius: 600px;
   }
 
+  .paragraph-16 {
+    margin-bottom: -4px;
+    text-align: left;
+  }
+
   .paragraph-18 {
     font-size: 16px;
+    text-align: left;
   }
 
   .column-8 {
@@ -2046,24 +2060,25 @@ a {
   }
 
   .paragraph-19 {
-    padding-right: 24px;
-    padding-left: 24px;
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
   }
 
   .paragraph-22 {
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
   }
 
   .paragraph-23 {
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
   }
 
   .image-11 {
@@ -2147,10 +2162,10 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .div-block-3 {
@@ -2169,10 +2184,10 @@ a {
     -ms-flex-pack: center;
     justify-content: center;
     justify-items: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-align-content: end;
     -ms-flex-line-pack: end;
     align-content: end;
@@ -2194,10 +2209,10 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .image-22 {
@@ -2269,6 +2284,22 @@ a {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .heading-10 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 
@@ -2534,6 +2565,7 @@ a {
   .paragraph-12 {
     padding-top: 13px;
     font-size: 15px;
+    font-weight: 400;
   }
 
   .paragraph-13 {
@@ -2580,7 +2612,7 @@ a {
     margin-right: 0px;
     margin-left: 0px;
     padding-top: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -2608,7 +2640,7 @@ a {
     padding-bottom: 0px;
     font-size: 20px;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
   }
 
   .heading-4 {
@@ -2631,7 +2663,10 @@ a {
   }
 
   .paragraph-18 {
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 15px;
+    text-align: left;
   }
 
   .column-8 {
@@ -2891,7 +2926,7 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-bottom: 32px;
+    padding-bottom: 16px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2912,7 +2947,7 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-bottom: 32px;
+    padding-bottom: 16px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
