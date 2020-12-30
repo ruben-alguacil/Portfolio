@@ -400,7 +400,7 @@ a {
   margin-top: 43px;
   padding-right: 35px;
   padding-bottom: 100px;
-  padding-left: 0px;
+  padding-left: 16px;
   background-color: transparent;
   color: transparent;
 }
@@ -511,7 +511,7 @@ a {
   margin-top: -40px;
   padding-right: 35px;
   padding-bottom: 100px;
-  padding-left: 0px;
+  padding-left: 16px;
   color: transparent;
 }
 
@@ -764,7 +764,7 @@ a {
 .column-4 {
   padding-right: 35px;
   padding-bottom: 100px;
-  padding-left: 0px;
+  padding-left: 16px;
 }
 
 .column-5 {
@@ -787,7 +787,7 @@ a {
 .column-7 {
   padding-right: 35px;
   padding-bottom: 100px;
-  padding-left: 0px;
+  padding-left: 16px;
 }
 
 .paragraph-12 {
@@ -885,6 +885,8 @@ a {
 .cards-grid-container {
   display: -ms-grid;
   display: grid;
+  padding-right: 40px;
+  padding-left: 40px;
   justify-items: center;
   grid-auto-columns: 1fr;
   grid-column-gap: 40px;
@@ -985,8 +987,8 @@ a {
 }
 
 .paragraph-18 {
-  padding-right: 60px;
-  padding-left: 60px;
+  padding-right: 40px;
+  padding-left: 40px;
   font-family: Montserrat, sans-serif;
   color: #0b1819;
   text-align: left;
@@ -1053,7 +1055,7 @@ a {
   padding-top: 8px;
   font-family: Montserrat, sans-serif;
   color: #0b1819;
-  text-align: left;
+  text-align: center;
 }
 
 .heading-5 {
@@ -1076,14 +1078,14 @@ a {
   padding-top: 8px;
   font-family: Montserrat, sans-serif;
   color: #0b1819;
-  text-align: left;
+  text-align: center;
 }
 
 .paragraph-23 {
-  padding-top: 29px;
+  padding-top: 8px;
   font-family: Montserrat, sans-serif;
   color: #0b1819;
-  text-align: left;
+  text-align: center;
 }
 
 .column-9 {
@@ -1445,7 +1447,7 @@ a {
 }
 
 .image-22 {
-  padding-top: 101px;
+  padding-top: 86px;
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -1459,6 +1461,7 @@ a {
   color: #0b1819;
   font-size: 25px;
   font-weight: 500;
+  text-align: center;
 }
 
 .heading-10 {
@@ -1466,6 +1469,7 @@ a {
   color: #0b1819;
   font-size: 25px;
   font-weight: 500;
+  text-align: center;
 }
 
 .heading-11 {
@@ -1473,6 +1477,7 @@ a {
   color: #0b1819;
   font-size: 25px;
   font-weight: 500;
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -1652,6 +1657,7 @@ a {
   }
 
   .columns-2 {
+    padding-right: 0px;
     padding-left: 0px;
   }
 
@@ -2015,6 +2021,8 @@ a {
     max-width: none;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
     justify-items: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -2049,6 +2057,8 @@ a {
   }
 
   .paragraph-18 {
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 16px;
     text-align: left;
   }
@@ -2383,7 +2393,7 @@ a {
   }
 
   .column {
-    padding-left: 0px;
+    padding-left: 8px;
   }
 
   .proyecto4 {
@@ -2407,7 +2417,7 @@ a {
   .column-2 {
     padding-right: 0px;
     padding-bottom: 30px;
-    padding-left: 0px;
+    padding-left: 8px;
   }
 
   .paragraph-6 {
@@ -2543,7 +2553,7 @@ a {
 
   .column-4 {
     padding-bottom: 30px;
-    padding-left: 0px;
+    padding-left: 8px;
   }
 
   .column-5 {
@@ -2559,7 +2569,7 @@ a {
   .column-7 {
     padding-right: 0px;
     padding-bottom: 30px;
-    padding-left: 0px;
+    padding-left: 8px;
   }
 
   .paragraph-12 {
@@ -2833,6 +2843,7 @@ a {
     display: flex;
     margin-bottom: 16px;
     margin-left: 0px;
+    padding-top: 8px;
     padding-right: 0px;
     padding-left: 0px;
     -webkit-box-pack: center;
@@ -2856,6 +2867,7 @@ a {
     display: block;
     margin-bottom: 16px;
     margin-left: 0px;
+    padding-top: 8px;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -2870,6 +2882,7 @@ a {
     display: block;
     margin-bottom: 16px;
     margin-left: 0px;
+    padding-top: 8px;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -2884,6 +2897,7 @@ a {
   .link-13 {
     display: block;
     margin-left: 0px;
+    padding-top: 8px;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -3030,6 +3044,7 @@ a {
     -ms-flex-pack: start;
     justify-content: flex-start;
     font-size: 20px;
+    text-align: left;
   }
 
   .heading-10 {
