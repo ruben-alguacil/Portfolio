@@ -1440,13 +1440,13 @@ a {
   display: inline-block;
 }
 
-.flecha {
+.image-21 {
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
-.fechita {
+.section-2 {
   margin-top: 0px;
 }
 
@@ -1558,7 +1558,7 @@ a {
 .hero-image {
   width: 100%;
   height: 100%;
-  max-width: 85%;
+  max-width: 90%;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0.5 auto;
   -ms-flex: 0 0.5 auto;
@@ -1661,7 +1661,7 @@ a {
 .hero-image-2 {
   width: 100%;
   height: 100%;
-  max-width: 85%;
+  max-width: 100%;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0.5 auto;
   -ms-flex: 0 0.5 auto;
@@ -2036,26 +2036,13 @@ a {
 }
 
 .hero-image-mask-5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   width: 100%;
   margin-left: 40px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .hero-image-3 {
   width: 100%;
   height: 100%;
-  max-width: 90%;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0.5 auto;
   -ms-flex: 0 0.5 auto;
@@ -2175,20 +2162,8 @@ a {
 }
 
 .heroimage6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   margin-left: 61px;
   padding-left: 0px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -4208,12 +4183,12 @@ a {
     font-size: 15px;
   }
 
-  .flecha {
+  .image-21 {
     max-width: 15%;
   }
 
-  .fechita {
-    margin-top: 110px;
+  .section-2 {
+    margin-top: 91px;
   }
 
   .div-block-2 {
@@ -4774,16 +4749,8 @@ a {
   }
 
   .hero-image-mask-5 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
   }
 
   .hero-image-3 {
@@ -4842,17 +4809,9 @@ a {
   }
 
   .heroimage6 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
   }
 }
 
